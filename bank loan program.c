@@ -1,6 +1,7 @@
 //Author:Andy Ondieki
 //Registration number:BCS-05-0553/2026
-//Description:units offered this semester 
+//Description:bank loan program 
+
 
 #include <stdio.h>
 
