@@ -1,6 +1,6 @@
 //Author:Andy Ondieki
 //Registration number:BCS-05-0553/2026
-//Description:program to handle mobile data bundle selection using switch-case
+//Description:program to handle mobile data bundle selection and display user output
 
 #include <stdio.h>
 
