@@ -1,3 +1,7 @@
+//Author:Andy Ondieki
+//Registration number:BCS-05-0553/2026
+//Description:HOTEL MANAGEMENT SYSTEM
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -24,7 +28,7 @@ int main() {
 
     printf("=== HOTEL MANAGEMENT SYSTEM ===\n\n");
 
-    // TASK 1: 1D Array – Weekly Revenue Tracker
+    // TASK 1: 1D Array â€“ Weekly Revenue Tracker
     printf("--- 1D Array: Weekly Revenue Tracker ---\n");
 
     // Input revenue for each day
@@ -42,7 +46,7 @@ int main() {
     printf("Average Daily Revenue: Ksh %.2f\n\n", average_revenue);
 
 
-    // TASK 2: 2D Array – Room Occupancy (One Branch)
+    // TASK 2: 2D Array â€“ Room Occupancy (One Branch)
     printf("--- 2D Array: Room Occupancy (Single Branch) ---\n");
 
     // Simulate random occupancy data (0 or 1)
@@ -69,7 +73,7 @@ int main() {
     printf("\n");
 
 
-    // TASK 3: 3D Array – Multiple Branches
+    // TASK 3: 3D Array â€“ Multiple Branches
     printf("--- 3D Array: Multiple Branches Tracker ---\n");
 
     // Assign random occupancy and calculate total occupancy across the chain
