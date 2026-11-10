@@ -26,3 +26,8 @@ int main() {
 
     return 0;
 }
+/*Purpose of the sqrt() function in the program:
+ The purpose of the sqrt() function is to calculate the square root of 
+ the sum of the squared length and width (Length^2 + Width^2). This finds 
+ the final diagonal length of the window based on the Pythagorean theorem
+ */
