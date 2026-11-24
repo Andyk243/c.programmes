@@ -20,7 +20,7 @@ int main() {
     return 0;
 }
 
-// a) Save the first employee's details in write mode ("w")
+//Save the first employee's details in write mode ("w")
 void writeEmployee() {
     FILE *file = fopen("employees.txt", "w");
     char id[SIZE], fullName[SIZE], department[SIZE];
@@ -53,7 +53,7 @@ void writeEmployee() {
     fclose(file);
 }
 
-// b) Display all employee records one character at a time in read mode ("r")
+//Display all employee records one character at a time in read mode ("r")
 void readEmployee() {
     FILE *file = fopen("employees.txt", "r");
     int ch;
@@ -72,7 +72,7 @@ void readEmployee() {
     fclose(file);
 }
 
-// c) Add another employee's details in append mode ("a")
+// Add another employee's details in append mode ("a")
 void appendEmployee() {
     FILE *file = fopen("employees.txt", "a");
     char id[SIZE], fullName[SIZE], department[SIZE];
